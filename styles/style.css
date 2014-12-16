@@ -1,0 +1,285 @@
+body {
+    font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+html, body, #wrapper, h1, #nav, #nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+th, td {
+    font-size: 10px;
+}
+
+img { border: 0; }
+
+#wrapper {
+    margin: auto;
+    text-align: left;
+    width: 750px;
+    position: relative;
+}
+
+h1, h2, h3 {
+    font-size: 10px;
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 4px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+p {
+    margin: 1em 0;
+    padding: 0;
+}
+
+.block {
+    display: block;
+}
+#header{
+float:left;
+}
+.clear {
+    clear: both;
+    height: 1px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1px;
+    line-height: 1px;
+}
+
+* html .clear {
+    margin-top: -5px;
+    margin-bottom: -4px;
+}
+
+.left {
+    float: left;
+    margin: 1px 8px 0px 0px;
+}
+
+.right {
+    float: right;
+    margin: 1px 0px 0px 8px;
+}
+
+.softright {
+    text-align: right;
+}
+
+.readmore {
+    text-align: right;
+    padding-right: 1em;
+	color:CD853F;
+}
+
+/* ***** */
+
+body {
+    background-color:#FFE4B5;
+	background-image: url(../images/background.jpg);   
+}
+
+#wrapper {
+    width: 698px;
+    background: #FFE4B5;
+    border: 1px solid #A0522D;
+}
+
+* html #wrapper {
+    width: 700px;
+}
+
+h1 {
+    padding: 9px 18px
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#800000;
+}
+
+a.orange { color: #800000; }
+a.green  { color:800000; }
+a.teal   { color: #800000; }
+a.purple { color: #800000; }
+
+a:hover        { color: #B04600; }
+a:hover.orange { color: #B04600; }
+a:hover.green  { color: #B04600; }
+a:hover.teal   { color: #B04600; }
+a:hover.purple { color: #B04600; }
+
+a:hover {
+    text-decoration: underline;
+}
+/* nav */
+
+* html .clear {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav li {
+    float: left;
+    list-style: none;
+    width: 139px;
+    font-size: 12px;
+    font-weight: bold;
+    border-left: 1px solid white;
+    text-align: center;
+}
+
+#nav li.first {
+    width: 138px;
+    border-left: none;
+}
+
+#nav a {
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    background: #B04600;
+    padding: 2px 0;
+    width: 100%;
+}
+#nav a:hover {
+    background: #B8860B;
+}
+
+/* highlights */
+
+#highlights {
+    background-image: url(../images/photo_1.jpg);
+	background-repeat:no-repeat;
+    width: 327px;
+    float: left;
+    margin-right: -10px;
+}
+#highlights .p {
+    padding: 8px 7px;
+    margin-left: 187px;
+    border-bottom: 1px solid white;
+}
+
+* html #highlights .p {
+    padding-bottom: 6px;
+}
+
+#highlights div.green  { background: #CD853F; }
+#highlights div.purple { background: #CD853F; }
+#highlights div.orange { background: #CD853F; }
+
+#highlights #topspot {
+    padding: 13px 11px;
+}
+
+#highlights .faceofweek {
+    float: left;
+    width: 97px;
+    font-size: 10px;
+    margin-top: 1em;
+    color: Black;
+  
+}
+
+#highlights .faceotweek p {
+    padding: 0 2px;
+}
+
+/* right */
+
+#right {
+    width: 370px;
+    float: right;
+    border-top: 1px solid #bdbdbd;
+    background: url(images/body_tr_bg.gif);
+}
+
+#right .right {
+    margin-left: 1px;
+}
+
+#right #products {
+    float: left;
+    width: 188px;
+}
+
+#right #products div {
+    border-top: 1px solid #bdbdbd;
+    padding: 10px 10px 0 10px;
+}
+
+#right #products #item-one {
+    border-top: none;
+}
+
+#right #products h2 {
+    clear: both;
+}
+
+#right #news {
+    float: right;
+    width: 165px;
+    margin: 10px 10px 0 0;
+    display: inline;
+}
+
+#right #news h2 {
+    margin-bottom: 0.5em;
+}
+
+#right #news h3 {
+    margin-bottom: -0.4em;
+}
+
+/* beauty */
+
+#beauty {
+    float: right;
+    width: 370px;
+    border-top: 1px solid #bdbdbd;
+    background: url(images/body_br_bg.gif);
+}
+
+#beauty div {
+    padding: 12px;
+}
+
+/* footer */
+
+#footer {
+    color: black;
+	
+    background:#CD853F;
+    text-align: center;
+    padding: 8px 0;
+}
+
+#footer a {
+    color: #fff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#footer a:hover{
+    color: #f8cde3;
+}
